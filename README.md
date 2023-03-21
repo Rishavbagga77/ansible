@@ -46,7 +46,7 @@ cd /home/ansible
 mkdir .ssh
 cd .ssh
 echo " " >> /home/ansible/.ssh/authorized_keys 
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIDVSnl4v1XZ0RfBzs70u8e1mDGXlwM79rv3H9oMQtyAOeKSWcfN4z0rpfUsM5T5esvbrSP3E8FFoHDX1/aXc97U1O104PLMoDab8jbklRUm02J1RQFkLLYHHSuk5x69+Qn/GBBHfbRigOPHn8I75PBWCMyMTHhklzbsHAa/C9HbE0/aVuA6MGNEWarFDXtuEOnEDcinr/qm9ypoxRQeXH2LrY9f702Cnk4tpkOxb4V6nCJgCBTu6pJKVRf01n5hutsWB50FVOgLOPGBJ5QddJk+JUW9VCcqEF9SPWim0QzPXWWoAObU9l6EgMcuHJBbyDqIw8G+6dIjiqTVPn9BEL ubuntu@ip-172-31-56-169" >> /home/ubuntu/.ssh/authorized_keys
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIDVSnl4v1XZ0RfBzs70u8e1mDGXlwM79rv3H9oMQtyAOeKSWcfN4z0rpfUsM5T5esvbrSP3E8FFoHDX1/aXc97U1O104PLMoDab8jbklRUm02J1RQFkLLYHHSuk5x69+Qn/GBBHfbRigOPHn8I75PBWCMyMTHhklzbsHAa/C9HbE0/aVuA6MGNEWarFDXtuEOnEDcinr/qm9ypoxRQeXH2LrY9f702Cnk4tpkOxb4V6nCJgCBTu6pJKVRf01n5hutsWB50FVOgLOPGBJ5QddJk+JUW9VCcqEF9SPWim0QzPXWWoAObU9l6EgMcuHJBbyDqIw8G+6dIjiqTVPn9BEL ubuntu@ip-172-31-56-169" >> /home/ansible/.ssh/authorized_keys
 chown ansible:ansible /home/ansible/.ssh/authorized_keys
 cat /home/ansible/.ssh/authorized_keys
 
